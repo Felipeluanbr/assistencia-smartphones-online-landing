@@ -1,0 +1,25 @@
+.hero-section{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom,  #35a5fa, $blue);
+    display: flex;
+    height: 100vh;
+
+    .hero__content{
+    width: 55%;
+    color:$white; 
+
+    h1{
+        color: $white;
+    }
+
+    p{
+        font-size: $font-size-content;
+    }
+}
+
+}
+
+
+
