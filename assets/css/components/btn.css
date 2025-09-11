@@ -1,0 +1,17 @@
+@import '/assets/css/components/variables.css';
+
+
+.button{
+    background: var(--color-secondary);
+    color: var(--color-white);
+    font-size: var(--font-text);
+    padding: 0.5rem 1.6rem;
+    border-radius: 1.3rem;
+    border: none;
+
+}
+
+.button:hover{
+    background: var(--color-white);
+    color: var(--color-secondary);
+}
