@@ -1,0 +1,41 @@
+@use '../base/variables';
+
+.services{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 140px;
+}
+
+
+.services__text h2{
+    font-size: variables.$font-size-subtitle;
+    font-weight: bold;
+    margin: 0;
+}
+
+.services__cards{
+    margin-top: 85px;
+    display: flex;
+    gap: 64px;
+
+}
+
+.services__card{
+    background: variables.$gray;
+    padding:  30px 100px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 181px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.1 );
+    transition: 0.5s;
+}
+.services__card:hover{
+    
+    background: rgba(0, 0, 0, 0.1);}
+
+.services__card img{
+    height: 60px;
+}

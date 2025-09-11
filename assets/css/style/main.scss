@@ -1,20 +1,11 @@
-@import 'normalize.css';
-@import '../base/variables';
-@import '../layout/hero';
+@use 'normalize.css';
+@use '../base/variables';
+@use '../layout/hero';
+@use '../layout/services';
 
 // Estilos gerais para o corpo da página
 body {
-    font-family: $font-primary;
-    background-color: $bg-primary;
-    padding: 0;
-}
-
-// Exemplo de como estilizar a seção hero usando as variáveis
-.hero-section {
-    text-align: center;
-}
-
-.hero__title {
-    font-size: $font-size-title;
-    color: $text-title;
+  font-family: variables.$font-primary; // 👈 agora tem que prefixar com o namespace do arquivo
+  background-color: variables.$bg-primary;
+  padding: 0;
 }
