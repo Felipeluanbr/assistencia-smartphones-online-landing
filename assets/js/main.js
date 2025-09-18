@@ -129,12 +129,15 @@ var dadosOrcamento = {
 };
 
 // Criei a variavel
-const fabricanteSelect = document.getElementById("fabricante-select");
+const fabricante = document.getElementById("fabricante-select");
 
 // Estou fazendo um for..in
 for (const fabricanteSelect in dadosOrcamento){
 
-    const option = document.createAttribute(option);
-    
+    const option = document.createElement("option");
+    const textOption = document.createTextNode(fabricanteSelect);
+    option.value = fabricante;
+    option.appendChild(textOption);
 
+    fabricanteSelect.appendChild(option);
 }
