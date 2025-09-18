@@ -3,14 +3,14 @@ var dadosOrcamento = {
     "iPhone-XR": {
       "tela-quebrada": 500.0,
       "tampa-trincada": 400.0,
-      bateria: 300.0,
+      "bateria": 300.0,
       "conector-ruim": 350.0,
     },
 
     "iPhone-13": {
       "tela-quebrada": 600.0,
       "tampa-trincada": 400.0,
-      bateria: 300.0,
+      "bateria": 300.0,
       "conector-ruim": 350.0,
     },
 
@@ -21,7 +21,7 @@ var dadosOrcamento = {
       "conector-ruim": 350.0,
     },
 
-    "iPhone-14": {
+    "iPhone-15": {
       "tela-quebrada": 600.0,
       "tampa-trincada": 400.0,
       bateria: 300.0,
@@ -29,25 +29,25 @@ var dadosOrcamento = {
     },
   },
 
-  samsung: {
+ "samsung" : {
     "S23": {
       "tela-quebrada": 500.0,
       "tampa-trincada": 400.0,
-      bateria: 300.0,
+      "bateria": 300.0,
       "conector-ruim": 350.0,
     },
 
     "S24": {
       "tela-quebrada": 500.0,
       "tampa-trincada": 400.0,
-      bateria: 300.0,
-      "conector-ruim": 350.0,
+      "bateria": 300.0,
+      "conector-ruim": 350.00,
     },
 
     "S25": {
       "tela-quebrada": 500.0,
       "tampa-trincada": 400.0,
-      bateria: 300.0,
+      "bateria": 300.00,
       "conector-ruim": 350.0,
     },
   },
