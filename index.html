@@ -84,22 +84,29 @@
         <p>Escolha o modelo e tipo de reparo</p>
         <div class="form">
 
-          <label for="fabricante-select">Fabricante:</label>
+          <div class="form__fabricante">
+          <label for="fabricante-select">Escolha o fabricante</label>
           <select id="fabricante-select">
-            <option value="">Selecione o Fabricante</option>
+            <option value="">Escolha o fabricante </option>
           </select>
-
-          <label for="modelo-select">Modelo:</label>
+          </div>
+<div class="form__modelo">
+          <label for="modelo-select">Escolha o modelo</label>
           <select id="modelo-select">
-            <option value="">Selecione o modelo</option>
+            <option value="">Escolha o modelo</option>
+          </select>
+          </div>
+          <div class="form__problema">
+          <label for="problema-select">Escolha o problema</label>
+          <select id="problema-select">
+            <option value="">Escolha o tipo de problema</option>
           </select>
 
-          <label for="problema-select">Problema:</label>
-          <select id="problema-select">
-            <option value="">Selecione o problema</option>
-          </select>
+          </div>
 
           <div id="resultado-orcamento"></div>
+          
+           <a href="#"><button class="button">Orçamento</button></a>
         </div>
       </div>
     </section>

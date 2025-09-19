@@ -1,0 +1,103 @@
+@import '/assets/css/components/variables.css';
+
+.budget{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.budget__content{
+    background-color: var(--color-grey);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 57rem;
+    height: 100%;
+   
+}
+.budget__content h2{
+    margin-top: 6.5rem;
+    font-size: var(--font-subtitle);
+    font-weight: bold;
+}
+
+.budget__content p{
+    font-size: var(--font-subtitle);
+    margin-top: 0.5rem;
+    font-weight: 100;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.form__fabricante{
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    border: 1px solid var(--color-secondary);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 35rem;
+}
+
+.form__fabricante select{
+    background: none;
+    border: none;
+}
+
+.form__modelo{
+     margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    border: 1px solid var(--color-secondary);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 35rem;
+}
+
+.form__modelo select{
+    background: none;
+    border: none;
+}
+.form__problema{
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    border: 1px solid var(--color-secondary);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 35rem;
+}
+
+.form__problema select{
+    background: none;
+    border: none;
+
+}
+
+.button{
+    margin-top: 4rem;
+}
+
+#resultado-orcamento p{
+    font-weight: bold;
+    font-size: var(--font-subtitle);
+    margin-top: 6.5rem;
+}

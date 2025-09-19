@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
         dadosOrcamento[fabricanteSelecionado][modeloSelecionado][
           problemaSelecionado
         ];
-      resultadoDiv.innerHTML = `<p>O valor do conserto é: <strong>R$ ${preco
+      resultadoDiv.innerHTML = `<p>O pré-orçamento é de: <strong>R$ ${preco
         .toFixed(2)
         .replace(".", ",")}</strong></p>`;
     } else {
