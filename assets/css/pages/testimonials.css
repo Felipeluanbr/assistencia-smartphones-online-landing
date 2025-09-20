@@ -1,0 +1,14 @@
+.testimonials__cards{
+    height: 15rem;
+    width: 22%;
+    background: var(--color-grey);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonials__cards .comentario{
+    font-size: var(--font-text);
+    font-weight: bold;
+}
