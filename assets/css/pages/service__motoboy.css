@@ -1,0 +1,36 @@
+@import '/assets/css/components/variables.css';
+
+.service__motoboy{
+    width: 100%;
+
+    margin: 10rem 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service__motoboy__content{
+    display: flex;
+    background-color: var( --color-primary);
+    width: 70%;
+    height: 21rem;
+    border-radius: 2rem;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.service__motoboy__text{
+    margin-left: 2rem;
+    color: var(--color-white);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.service__motoboy__img{
+    position: relative;
+    margin-bottom: 5rem;
+    z-index: 1;
+}
